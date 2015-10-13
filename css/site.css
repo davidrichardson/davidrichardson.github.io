@@ -16,7 +16,8 @@
 footer {
   padding-top: 10px;
   width: 100%;
-  min-height: 70px;
+  min-height: 40px;
+  vertical-align: middle;
 }
 
 .landing-footer {
@@ -32,6 +33,7 @@ footer {
   max-width: 90%;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 5px;
 }
 
 .full {
