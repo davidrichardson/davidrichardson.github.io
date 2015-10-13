@@ -130,6 +130,7 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   hash-joiner
+  jekyll-sitemap
   json
 
 BUNDLED WITH

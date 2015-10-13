@@ -4,6 +4,8 @@ title: Publications
 permalink: /publications/
 ---
 
+This list is rebuilt periodically from the publications linked to my [ORCID entry](http://orcid.org/0000-0003-0247-9118).  
+
 <ul>
 {% for pub in site.data.publications.resultList.result %}
 
