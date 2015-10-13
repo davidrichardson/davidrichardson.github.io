@@ -1,9 +1,8 @@
 # Site settings
 title: David M Richardson
-description: > # this means to ignore newlines until "baseurl:"
-  Personal blog.
+description: "There's not a lot here."
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://davidrichardson.github.io/" # the base hostname & protocol for your site
+url: "https://davidrichardson.github.io" # the base hostname & protocol for your site
 twitter_username: richardson_dm
 github_username:  davidrichardson
 
