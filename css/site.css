@@ -1,0 +1,47 @@
+---
+---
+/**
+ * Icons
+ */
+.icon > svg {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  vertical-align: middle; }
+
+.icon > svg path {
+    fill: #828282;
+}
+
+footer {
+  padding-top: 10px;
+  width: 100%;
+  min-height: 70px;
+}
+
+.landing-footer {
+    position: absolute;
+    bottom: 0;
+}
+
+.site-header, .page-content, .landing-footer {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.page-content {
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.full {
+  background: url(../img/stourhead.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0);
+}

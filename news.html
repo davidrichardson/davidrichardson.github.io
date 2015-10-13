@@ -1,0 +1,18 @@
+---
+layout: page
+title: News
+permalink: /news/
+---
+<ul class="post-list">
+  {% for post in site.posts %}
+    <li>
+      <h4>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        <small class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</small>
+      </h4>
+      <article class="post-content">
+        {{ post.content | truncatewords: 10 }}
+      </article>
+    </li>
+  {% endfor %}
+</ul>

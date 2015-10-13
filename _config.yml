@@ -1,0 +1,15 @@
+# Site settings
+title: David M Richardson
+description: > # this means to ignore newlines until "baseurl:"
+  Personal blog.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://davidrichardson.github.io/" # the base hostname & protocol for your site
+twitter_username: richardson_dm
+github_username:  davidrichardson
+
+jekyll_get:
+  data: publications
+  json: http://www.ebi.ac.uk/europepmc/webservices/rest/search/query=AUTHORID:0000-0003-0247-9118%20sort_date:y&format=json
+
+# Build settings
+markdown: kramdown
