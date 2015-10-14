@@ -12,8 +12,10 @@ This list is rebuilt periodically from the publications linked to my [ORCID entr
 <li>
 <h5><a href="http://europepmc.org/abstract/MED/{{pub.pmid}}">{{pub.title}}</a></h5>
 
-<p>{{pub.authorString}}</p>
-<p>{{pub.journalTitle}} Volume {{pub.journalVolume}} ({{pub.pubYear}}) {{pub.pageInfo}} <a href="http://dx.doi.org/{{pub.doi}}">{{pub.doi}}</a></p>
+<p>{{pub.authorList.author[0].lastName}} <em>et al.</em></p>
+<p class="text-justify">{{pub.abstractText | newline_to_br}}</p>
+
+<p>{{pub.journalInfo.journal.medlineAbbreviation}} Volume {{pub.journalInfo.volume}} ({{pub.journalInfo.dateOfPublication}}) {{pub.pageInfo}} <a href="http://dx.doi.org/{{pub.doi}}">{{pub.doi}}</a></p>
 
 {% endfor %}
 </ul>
