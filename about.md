@@ -12,6 +12,6 @@ href="http://faang.org/"><abbr title="Functional annotation of animal
 genomes">FAANG</abbr></a>. I previously worked as part of the data coordination team for the
 [BLUEPRINT](http://www.blueprint-epigenome.eu/) project.
 
-Prior to joining EMBL-EBI, I worked at the Wellcome Trust Sanger Institute as a computer biologist for the [Cancer genome project](https://www.sanger.ac.uk/research/projects/cancergenome/), and as a software developer for the Mouse informatics group. In both these positions, I spent most of my time developing web applications.
+Prior to joining EMBL-EBI, I worked at the Wellcome Trust Sanger Institute as a computer biologist for the [Cancer genome project](https://www.sanger.ac.uk/research/projects/cancergenome/), and as a software developer for the Mouse informatics group. In both these positions I spent most of my time developing web applications.
 
-When not at work, I spend my time cooking, reading and looking after my two children.  
+When not at work, I spend my time cooking, listening to [Radio 4](http://www.bbc.co.uk/radio4), reading and looking after my two children.  

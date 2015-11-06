@@ -36,13 +36,35 @@ footer {
   border-radius: 5px;
 }
 
-.full {
-  background: url(../img/stourhead.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+@media screen and (min-height: 641px){
+  .full {
+      background: url(../img/stourhead_lg.jpg) no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+  }
 }
+@media screen and (min-height: 401px) and (max-height: 640px){
+  .full {
+      background: url(../img/stourhead_md.jpg) no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+  }
+}
+@media screen and (max-height: 400px){
+  .full {
+      background: url(../img/stourhead_sm.jpg) no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+  }
+}
+
+
 
 body {
   background-color: rgba(0, 0, 0, 0);
