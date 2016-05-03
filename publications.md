@@ -10,7 +10,7 @@ This information is also availble through my [ORCID entry](http://orcid.org/0000
 {% for pub in site.data.publications.resultList.result %}
 
 <li>
-<h5><a href="http://europepmc.org/abstract/MED/{{pub.pmid}}">{{pub.title}}</a></h5>
+<h3><a href="http://europepmc.org/abstract/MED/{{pub.pmid}}">{{pub.title}}</a></h3>
 
 <p>{{pub.authorList.author[0].lastName}} <em>et al.</em></p>
 <p class="text-justify">{{pub.abstractText | remove: "UNLABELLED:" newline_to_br}}</p>
