@@ -6,7 +6,7 @@ permalink: /about/
 
 I am a Scientific Programmer at <a href="http://www.ebi.ac.uk"><abbr title="European Bioinformatics Institute,
 part of the European Molecular Biology Laboratory">EMBL-EBI</abbr></a>, working in
-the Resequencing Informatics team. My current role is to develop software
+the Vertebrate Data Coordination team. My current role is to develop software
 infrastructure for non-model organism epigenomics projects, such as <a
 href="http://faang.org/"><abbr title="Functional annotation of animal
 genomes">FAANG</abbr></a>. I previously worked as part of the data coordination team for the
