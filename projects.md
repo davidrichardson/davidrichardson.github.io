@@ -4,7 +4,7 @@ title: Projects
 permalink: /projects/
 ---
 
-##BLUEPRINT Data Portal
+## BLUEPRINT Data Portal
 
 The [BLUEPRINT epigenome](http://www.blueprint-epigenome.eu/) project has made a
 large amount of data available through an <a href="http://ftp.ebi.ac.uk/pub/databases/blueprint"><abbr title="File transfer protocol">FTP
@@ -20,7 +20,7 @@ styling based on [bootstrap CSS](http://getbootstrap.com/).
 The design has been built upon further for the [HipSci](http://www.hipsci.org/)
 project, by my colleague Ian Streeter. The HipSci portal uses [ElasticSearch](https://www.elastic.co/products/elasticsearch) to provide sophisticated document search features.
 
-##EpiRR
+## EpiRR
 
 The [International Human Epigenome Consortium](http://ihec-epigenomes.org/) aims to
 produce high quality reference epigenomes. Partners in the consortium release their

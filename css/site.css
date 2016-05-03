@@ -32,7 +32,9 @@ p {
   margin-bottom: 1rem;
   max-width: 90%;
 }
-
+article {
+  margin-top: 0.75rem;
+}
 
 
 @media print {#container {margin: 3rem;}}
