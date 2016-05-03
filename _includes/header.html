@@ -1,33 +1,21 @@
-<header class="site-header">
+<header>
 
-  <nav class="navbar navbar-default">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="site-title navbar-brand" href="{{ site.baseurl }}/">{{ site.title }}</a>
-      </div>
-
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav">
-          {% for link in site.pages %}
-            {% assign active = '' %}
-            {% if page.url == link.url or page.layout == link.layout %}
-              {% assign active = 'active' %}
-            {% endif %}
-            {% if link.title %}
-            <li class="{{ active }}">
-              <a class="page-link" href="{{ link.url | prepend: site.baseurl }}">{{ link.title }}</a>
-            </li>
-            {% endif %}
-          {% endfor %}
-        </ul>
-      </div>
-    </div>
+  <nav>
+    <h1>
+      <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+    </h1>
+    <ul>
+      {% for link in site.pages %}
+        {% assign active = '' %}
+        {% if page.url == link.url or page.layout == link.layout %}
+          {% assign active = 'active' %}
+        {% endif %}
+        {% if link.title %}
+        <li class="{{ active }}">
+          <a class="page-link" href="{{ link.url | prepend: site.baseurl }}">{{ link.title }}</a>
+        </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
   </nav>
-
 </header>
