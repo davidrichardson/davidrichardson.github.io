@@ -82,10 +82,11 @@ nav li {
    display: inline;
    margin: 10px;
 }
-
+header a {
+    text-decoration: none;
+}
 a:link, a:visited  {
   color: #393D44;
-  text-decoration: none;
 }
 a:hover, a:active  {
   color: hotpink;
