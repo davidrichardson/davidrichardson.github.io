@@ -89,7 +89,7 @@ a:link, a:visited  {
   color: #393D44;
 }
 a:hover, a:active  {
-  color: hotpink;
+  color: darkorange;
 }
 .active a {
   color: crimson;
