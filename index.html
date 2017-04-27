@@ -217,7 +217,7 @@
     });
     //get publications from europepmc
     $(document).ready(function(){
- $.get("http://www.ebi.ac.uk/europepmc/webservices/rest/search?query=authorid:0000-0003-0247-9118%20sort_date:y&pageSize=50",
+ $.get("https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=authorid:0000-0003-0247-9118%20sort_date:y&pageSize=50",
       function(data){        
 
         var pubText = "<div class='well' id='publications-list'>";
