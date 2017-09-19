@@ -230,10 +230,12 @@
           var id = $result.find("id").text();
           var year = $result.find("pubYear").text();
           var journal = $result.find("journalTitle").text();
+            
+          var firstAuthor = authors.substr(0, authors.indexOf(',')); 
           
           pubText = pubText.concat(
             "<h4><a href='http://europepmc.org/abstract/MED/"+id+"'>" +title+"</a></h4>"+
-            "<p>"+authors+"</p>" +
+            "<p>"+firstAuthor+" <i>et al</i></p>" +
             "<p>"+year+" - "+journal+"</p>"          
           );
         });
